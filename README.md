@@ -1,9 +1,11 @@
-slicee
+Slicee
 ======
 
-slicee is a CLI version of [slicy](http://macrabbit.com/slicy/)
+Slicee is a CLI version of [slicy](http://macrabbit.com/slicy/)
 
-it come from [source/slicee](https://github.com/luin/slicee)
+and also a lib to export images from psd file
+
+It come from [source/slicee](https://github.com/luin/slicee)
 
 Make it better !
 
@@ -11,7 +13,7 @@ Usage
 -------
 
 ```
-slicee.rb sample.psd output
+./slicee.rb sample.psd output
 ```
 
 API
@@ -33,4 +35,5 @@ Slicee.slicy_only_groups(input, output) # only export groups
 
 License
 -------
+
 Public Domain (Unlicense)
